@@ -50,9 +50,9 @@
     *   `YOUR_OPENROUTER_API_KEY` の部分をあなたのOpenRouter APIキーに置き換えてください。
     *   `models` リストには、OpenRouterで利用可能なモデルIDを記述します。設定ファイルがない場合は上記のデフォルトモデルが自動で設定されますが、OpenRouterのサイトで利用可能なモデルを確認し、適宜変更してください。
     *   `pdf_engine` はPDF読み取りに使用するエンジンを指定します。「pdf-text」が推奨されますが、必要に応じて「mistral-ocr」や「native」を試してください。
-4.  `main.py` (コードのファイル名が異なる場合は適宜変更) を実行します。
+4.  `llm_report_tool.py` (コードのファイル名が異なる場合は適宜変更) を実行します。
     ```bash
-    python main.py
+    python llm_report_tool.py
     ```
 
 ## 使い方
